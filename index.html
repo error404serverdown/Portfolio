@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://kit.font-awesome.com/67c66657c7.js"></script>
+</head>
+
+<body>
+  <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Site logo -->
+    <label class="logo">PortFo<span class="left">lio</span></label>
+
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#foot">Contact</a></li>
+      <li><a href="#foot">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+<section id="about" class="fade-in-left">
+  <div class="container">
+    <h2>Hi, I am</h2>
+    <br>
+    <h1>Sameer Verma</h1>
+    <br>
+    <pre>
+      Hi! I'm a passionate web developer dedicated to crafting functional
+      and visually appealing websites. I specialize in responsive design,
+      intuitive interfaces,and efficient code to deliver exceptional 
+      digital experiences.Beyond technical expertise, I value creativity,
+      problem-solving, and collaboration. I thrive in environments where 
+      I can tackle challenges, learn new technologies, and contribute to 
+      impactful projects. Whether it’s developing a sleek landing page, an
+      intricate e-commerce platform, or a robust API.I approach each project 
+      with precision, attention to detail, and a user-centric mindset. 
+      My mission is to bridge the gap between technology and people, creating
+       solutions that are not only functional but also delightful to use.
+       When I’m not coding, you can find me exploring design trends, contributing
+        to open-source projects, or sharing my knowledge with the developer community.
+          I believe in continuous growth and innovation, and I am always looking 
+          for opportunities to expand my expertise and collaborate on exciting projects.
+
+    </pre>
+  </div>
+
+
+
+
+</section>
+
+<!-- Services Section -->
+<section id="services" class="fade-in-right">
+  <div class="services">
+    <div class="title">
+    <h2>My Services</h2>
+    </div>
+
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Web Development</h5>
+        <div class="pra">
+          <p>Building responsive, user-friendly websites that meet your business needs...</p>
+        
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-user"></i>
+        <h5>UI/UX Designer</h5>
+        <div class="pra">
+          <p>Building personalised designs and gui for the customers as per their need...</p>
+        
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        
+        </div>
+      </div>
+
+
+      <div class="card">
+        <i class="fas fa-bell"></i>
+        <h5>Video Editing</h5>
+        <div class="pra">
+          <p>Editing the videos from basic to extreme levels depending on the customer requirements...</p>
+        
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        
+        </div>
+      </div>
+
+
+    </div>
+   </div>
+    
+</section>
+
+
+
+  <footer id="foot">
+
+    <div class="wave wavec">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave"  id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+
+
+    <h2 id="h">Connect Through...</h2>
+
+    <ul class="social_icon">
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+
+    <div class="feedback">
+       
+      
+
+      <form>
+
+        <h2>Feedback Form</h2>
+        <div class="id">
+        <input type="text" name="name"  placeholder=" Enter Your Name">
+        <i class="far fa-user"></i>
+        </div>
+
+        <div class="id">
+        <input type="email" name="email"  placeholder="Enter Your Email">
+        <i class="far fa-envelope"></i>
+        </div>
+
+        <textarea name="message" placeholder="Enter Your Feedback"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        
+       
+        
+      </form>
+      
+    </div>
+
+    <div class="image">
+      <img src="./pen_preview_rev_1.png" alt="image">
+    </div>
+
+    <p>@2024 PortFolio | All Rights Reserved</p>
+  </footer>
+
+<!-- this is for installation of module for icons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
